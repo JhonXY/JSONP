@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>test</title>
+        <style type="text/css">
+         .myspan1 { color: #FFFFFF; background-color: #800000; }
+         .myspan2 { color: #000000; background-color: #CCFFCC; }
+         .myspan3 { color: #FFFFFF; background-color: #000080; }
+         .myspan4 { color: #000000; background-color: #FFCCCC; }
+         .mydiv1 { color: #FFFFFF; background-color: #008000; }
+         .mydiv2 { color: #000000; background-color: #CCCCFF; }
+         .mydiv3 { color: #FFFFFF; background-color: #000000; }
+         .mydiv4 { color: #000000; background-color: #FFFFAA; }
+         p {
+             background-image: url("images/andrew-collins-178963.jpg");
+         }
+        </style>
+    </head>
+    <body>
+        <h1>My main title</h1>
+        <h2>My top level heading</h2>
+        <h3>My subheading</h3>
+        <h4>My sub-subheading</h4>
+        <img src="images/andrew-collins-178963.jpg" alt="test image">
+        <p>This is a single paragraph</p>
+
+        <p>At Mozilla, we’re a global community of</p>
+
+        <ul>
+            <li>technologists</li>
+            <li>thinkers</li>
+            <li>builders</li>
+        </ul>
+
+        <p>working together ... </p>
+        <input type="text" disabled>
+        <input type="text">
+            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+                Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+            </blockquote>
+
+        <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+        for short quotations that don't require paragraph breaks.</q></p>
+        <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            MDN blockquote page</a>:</p>
+            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+              <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+              Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+            </blockquote>
+
+        <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+        for short quotations that don't require paragraph breaks.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+        <cite>MDN q page</cite></a>.</p>
+        <p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
+        <address>
+            <p>Chris Mills, Manchester, The Grim North, UK</p>
+        </address>
+        <p>cao</p>
+        <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+        <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+        <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+        <pre>   2323  3232
+            <code>var para = document.querySelector('p');
+
+            para.onclick = function() {
+                alert('Owww, stop poking me!');
+            }</code></pre>
+        <p> A simple equation: <var>x</var> = <var>y</var> + 2 </p>
+        <p>Save the document by pressing <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+        <p>Regular text. <samp>This is sample text.</samp> Regular text.</p>
+        <samp>AE</samp>
+        <time datetime="2016-01-20">20 January 2016</time>
+        <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+      <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      </footer>
+      <div class="blog">
+      <section class="post">
+         <h2 class="post-title">Blog Post Title</h2>
+         <p class="post-excerpt">Ice cream tart powder jelly-o.
+         Gummies chocolate cake ice cream cookie halvah tiramisu jelly-o.</p>
+      </section>
+      <section class="post">
+        <h2 class="post-title">Blog Post Title</h2>
+        <p class="post-excerpt">Ice cream tart powder jelly-o.
+        Gummies chocolate cake ice cream cookie halvah tiramisu jelly-o.</p>
+      </section>
+      <section class="post">
+        <h2 class="post-title">Blog Post Title</h2>
+        <p class="post-excerpt">Ice cream tart powder jelly-o.
+        Gummies chocolate cake ice cream cookie halvah tiramisu jelly-o.</p>
+      </section>
+      </div>
+      <article>
+      <p>
+      The Disney movie <em>The Little Mermaid</em> was
+      first released to theatres in 1989.
+      </p>
+      <aside>
+      The movie earned $87 million during its initial release.
+      </aside>
+      <p>
+      More info about the movie...
+      </p>
+      </article>
+      <span class="myspan1">水</span>
+      <span class="myspan2">维生素</span>
+      <span class="myspan3">蛋白质</span>
+      <span class="myspan4">矿物质</span>
+      <hr>
+      <div class="mydiv1">水</div>
+      <div class="mydiv2">维生素</div>
+      <div class="mydiv3">蛋白质</div>
+      <div class="mydiv4">矿物质</div>
+
+      <figure>
+      <img src="images/dinosaur.jpg"
+       alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth"
+       width="400"
+       height="341"
+       title="aaaaaa">
+
+      <figcaption>A T-Rex on display in the Manchester University Museum.</figcaption>
+      </figure>
+      <div>qq</div>
+      <div></div>
+      <p> </p>
+      <video   width="600" height="341"  controls
+               poster="images/andrew-collins-178963.jpg">
+          <source src="rabbit320.mp4" type="video/mp4">
+          <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+      </video>
+
+
+    </body>
+</html>
